@@ -35,5 +35,7 @@ class Armour {
   }
 }
 
-const shield = new Armour("shield");
+const shield = new Armour("shield", 5);
 // shield.block();
+const invisibleForceField = new Armour("Invisible Force Field", 20);
+invisibleForceField.block();
